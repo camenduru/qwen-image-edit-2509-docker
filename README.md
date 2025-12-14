@@ -1,6 +1,7 @@
-🐣 Please follow me for new updates https://x.com/camenduru <br />
-🔥 Please join our discord server https://discord.gg/k5BwmmvJJU <br />
-🥳 Please become my sponsor https://github.com/sponsors/camenduru <br />
+🐣 Please follow me for new updates: https://x.com/camenduru <br />
+🔥 Please join our discord server: https://discord.gg/k5BwmmvJJU <br />
+🥳 Please become my sponsor: https://github.com/sponsors/camenduru <br />
+🍞 TostUI repo: https://github.com/camenduru/TostUI
 
 ### 🍞 TostUI Local 🐋 Docker - Qwen Image Edit 2509 with LoRAs (8bit)
 `Convert to Anime` `Convert to Reality T1` `Convert to Reality T2`
