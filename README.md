@@ -34,6 +34,7 @@
 4.  **Open app**\
     Go to: http://localhost:3000
 
+![TostUI Local](https://github.com/user-attachments/assets/e4bf4bd2-9259-4a81-b9df-bccd5810c43d)
 
 ### 🍞 Tost UI Cloud and 🍇 RunPod Templates
 
