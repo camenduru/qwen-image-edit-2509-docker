@@ -38,7 +38,7 @@ asyncio.run(load_custom_node("/content/ComfyUI/custom_nodes/Comfyui-QwenEditUtil
 TextEncodeQwenImageEditPlusAdvance_lrzjason = NODE_CLASS_MAPPINGS["TextEncodeQwenImageEditPlusAdvance_lrzjason"]()
 
 with torch.inference_mode():
-    unet = UNETLoader.load_unet("qwen_image_edit_2509_fp8_e4m3fn.safetensors", "fp8_e4m3fn_fast")[0]
+    unet = UNETLoader.load_unet("qwen_image_edit_2509_fp8_e4m3fn.safetensors", "default")[0]
     model = LoraLoaderModelOnly.load_lora_model_only(unet, "Qwen-Image-Edit-Lightning-8steps-V1.0-bf16.safetensors", strength_model=1.0)[0]
     clip = CLIPLoader.load_clip("qwen_2.5_vl_7b_fp8_scaled.safetensors", type="qwen_image")[0]
     vae = VAELoader.load_vae("qwen_image_vae.safetensors")[0]

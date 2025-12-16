@@ -23,8 +23,8 @@ RUN apt update -y && apt install -y software-properties-common build-essential \
 
 USER camenduru
 
-RUN pip install --no-cache-dir torch==2.8.0+cu129 torchvision==0.23.0+cu129 torchaudio==2.8.0+cu129 --extra-index-url https://download.pytorch.org/whl/cu129 && \
-    pip install --no-cache-dir xformers==0.0.32.post2 --extra-index-url https://download.pytorch.org/whl/cu129 && \
+RUN pip install --no-cache-dir torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu129 && \
+    pip install --no-cache-dir xformers --extra-index-url https://download.pytorch.org/whl/cu129 && \
     git clone --depth 1 --branch master https://github.com/comfyanonymous/ComfyUI /content/ComfyUI && cd /content/ComfyUI && pip install -r requirements.txt && \
     git clone --depth 1 --branch master https://github.com/lrzjason/Comfyui-QwenEditUtils /content/ComfyUI/custom_nodes/Comfyui-QwenEditUtils && \
     pip install opencv-python imageio imageio-ffmpeg ffmpeg-python moviepy timm scikit-image matplotlib diffusers accelerate peft torch-scatter runpod boto3 && \
